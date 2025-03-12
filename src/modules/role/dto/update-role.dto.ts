@@ -1,3 +1,5 @@
 export class UpdateRoleDto {
-    name?: string;
-  }
+  name?: string;
+  permissions?: string[]; // Opcional
+  notifications?: string[]; // Opcional
+}

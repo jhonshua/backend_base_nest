@@ -11,4 +11,10 @@ export class Role {
 
   @OneToMany(() => User, (user) => user.role)
   users: User[];
+
+  @Column('simple-array', { nullable: true }) // Array de rutas (permisos)
+  permissions: string[];
+
+  @Column('simple-array', { nullable: true }) // Array de notificaciones
+  notifications: string[];
 }
