@@ -1,0 +1,7 @@
+site_name: base_backend
+nav:
+  - Home: index.md
+  - user: user.md
+  - role: role.md
+  - auth: auth.md
+theme: readthedocs
