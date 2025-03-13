@@ -136,7 +136,14 @@ src/
 │   │   │   └── role.entity.ts
 │   │   └── interfaces/
 │   │
-│   └── ... (otros módulos)
+│   └── auth/
+│        ├── auth.controller.ts
+│        ├── auth.module.ts
+│        ├── auth.service.ts
+│        ├── jwt-auth.guard
+│        ├── jwt.strategy.ts
+│        └── local-auth.guard.ts
+│
 │
 ├── shared/
 │   ├── services/
