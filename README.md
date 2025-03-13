@@ -114,23 +114,29 @@ src/
 │   └── configuration.ts
 │
 ├── modules/
-│   ├── module1/
-│   │   ├── module1.controller.ts
-│   │   ├── module1.service.ts
-│   │   ├── module1.module.ts
+│   ├── user/
+│   │   ├── user.controller.ts
+│   │   ├── user.service.ts
+│   │   ├── user.module.ts
 │   │   ├── dto/
+│   │   │   ├── create-user.dto.ts
+│   │   │   └── update-user.dto.ts
 │   │   ├── entities/
+│   │   │   └── user.entity.ts
 │   │   └── interfaces/
 │   │
-│   ├── module2/
-│   │   ├── module2.controller.ts
-│   │   ├── module2.service.ts
-│   │   ├── module2.module.ts
+│   ├── role/
+│   │   ├── role.controller.ts
+│   │   ├── role.service.ts
+│   │   ├── role.module.ts
 │   │   ├── dto/
+│   │   │   ├── create-role.dto.ts
+│   │   │   └── update-role.dto.ts
 │   │   ├── entities/
+│   │   │   └── role.entity.ts
 │   │   └── interfaces/
 │   │
-│   └── ...
+│   └── ... (otros módulos)
 │
 ├── shared/
 │   ├── services/
@@ -140,6 +146,5 @@ src/
     ├── migrations/
     ├── seeders/
     └── entities/
-
     
 '''
